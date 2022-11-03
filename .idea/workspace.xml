@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +47,14 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JavaScript",
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,6 +66,10 @@
       <option name="presentableId" value="Default" />
       <updated>1667283602505</updated>
       <workItem from="1667283603835" duration="1825000" />
+      <workItem from="1667373800110" duration="3394000" />
+      <workItem from="1667397954306" duration="2250000" />
+      <workItem from="1667461892177" duration="374000" />
+      <workItem from="1667462282997" duration="3100000" />
     </task>
     <servers />
   </component>
