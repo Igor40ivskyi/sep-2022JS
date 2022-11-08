@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson2 hw">
-      <change afterPath="$PROJECT_DIR$/lesson1/additional tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/additional tasks/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 3 tasks">
+      <change beforePath="$PROJECT_DIR$/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <workItem from="1667462282997" duration="3163000" />
       <workItem from="1667585545484" duration="48000" />
       <workItem from="1667826086741" duration="6301000" />
-      <workItem from="1667894032706" duration="6389000" />
+      <workItem from="1667894032706" duration="6688000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -86,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667466197143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="have done the lesson 3 tasks">
+      <created>1667913306705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667913306705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="have done the lesson2 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson2 hw" />
+    <MESSAGE value="have done the lesson 3 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 3 tasks" />
   </component>
 </project>
