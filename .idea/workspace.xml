@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson4 hw tasks">
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson4 hw tasks (adjust)">
+      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson4/hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/hw/main.js" afterDir="false" />
     </list>
@@ -80,7 +82,9 @@
       <workItem from="1667995866861" duration="10000" />
       <workItem from="1668009817720" duration="433000" />
       <workItem from="1668088139382" duration="6949000" />
-      <workItem from="1668101812121" duration="702000" />
+      <workItem from="1668101812121" duration="1023000" />
+      <workItem from="1668106884567" duration="2906000" />
+      <workItem from="1668147434487" duration="5264000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -117,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668099258974</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="have done the lesson4 hw tasks (adjust)">
+      <created>1668102832807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668102832807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +149,7 @@
     <MESSAGE value="have done the lesson2 hw" />
     <MESSAGE value="have done the lesson 3 tasks" />
     <MESSAGE value="have done the lesson4 hw tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson4 hw tasks" />
+    <MESSAGE value="have done the lesson4 hw tasks (adjust)" />
+    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson4 hw tasks (adjust)" />
   </component>
 </project>

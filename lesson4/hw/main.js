@@ -165,3 +165,21 @@
 //         document.write(`<h2 class="line">----------------------------------------------------------------------------------------------</h2>`)
 //     }
 // }
+
+// for (let user of users) {
+//     if (user.status) {
+//         console.log(user);
+//     }
+// }
+//
+// for (let i = 0; i < users.length; i++) {
+//     if (!users[i].status) {
+//         console.log(users[i]);
+//     }
+// }
+//
+// for (let i = 0; i < users.length; i++) {
+//     if (users[i].age > 30) {
+//         console.log(users[i]);
+//     }
+// }
