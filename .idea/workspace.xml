@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson4 hw tasks (adjust)">
-      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks/main.js" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 4 additional tasks">
+      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks2/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson4/hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson4/hw/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,15 @@
       <workItem from="1668088139382" duration="6949000" />
       <workItem from="1668101812121" duration="1023000" />
       <workItem from="1668106884567" duration="2906000" />
-      <workItem from="1668147434487" duration="5264000" />
+      <workItem from="1668147434487" duration="5816000" />
+      <workItem from="1668170968252" duration="1991000" />
+      <workItem from="1668173112047" duration="655000" />
+      <workItem from="1668177794259" duration="1473000" />
+      <workItem from="1668189342721" duration="3660000" />
+      <workItem from="1668245302338" duration="5000" />
+      <workItem from="1668328057384" duration="7062000" />
+      <workItem from="1668338889515" duration="8943000" />
+      <workItem from="1668349243857" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -128,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668102832807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="have done the lesson 4 additional tasks">
+      <created>1668154930017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668154930017</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +165,7 @@
     <MESSAGE value="have done the lesson 3 tasks" />
     <MESSAGE value="have done the lesson4 hw tasks" />
     <MESSAGE value="have done the lesson4 hw tasks (adjust)" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson4 hw tasks (adjust)" />
+    <MESSAGE value="have done the lesson 4 additional tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 4 additional tasks" />
   </component>
 </project>
