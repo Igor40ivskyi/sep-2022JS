@@ -1,0 +1,10 @@
+.heading{
+    background:cadetblue;
+
+}
+
+.heading:hover{
+    background:gold;
+    transition: 1s;
+
+}

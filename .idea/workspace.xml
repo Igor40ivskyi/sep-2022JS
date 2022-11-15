@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 4 additional tasks">
-      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/hw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/hw/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/preview practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/preview practice/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/preview practice/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson4/additional tasks 3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/main.js" afterDir="false" />
     </list>
@@ -92,7 +97,15 @@
       <workItem from="1668245302338" duration="5000" />
       <workItem from="1668328057384" duration="7062000" />
       <workItem from="1668338889515" duration="8943000" />
-      <workItem from="1668349243857" duration="2000" />
+      <workItem from="1668349243857" duration="24000" />
+      <workItem from="1668358128529" duration="2984000" />
+      <workItem from="1668366564753" duration="3000" />
+      <workItem from="1668423792043" duration="3691000" />
+      <workItem from="1668433017989" duration="3567000" />
+      <workItem from="1668445803666" duration="6000" />
+      <workItem from="1668446926851" duration="904000" />
+      <workItem from="1668452710445" duration="908000" />
+      <workItem from="1668495906632" duration="4503000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -143,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668154930017</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="have done the lesson 4 additional tasks">
+      <created>1668349258700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668349258700</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
