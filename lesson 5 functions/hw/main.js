@@ -115,30 +115,30 @@
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
-// function userPrinter(arr) {
-//     for (let item of arr) {
-//         document.write(`<div>`)
-//         for (let element in item) {
-//             document.write(` ${element} --- ${item[element]}`)
-//         }
-//         document.write(`</div>`)
-//     }
-// }
-//
-// let clients = [
-//     {name:'vasya',age:31, status: true},
-//     {name:'petya',age:34, status: true},
-//     {name:'kolya',age:23, status: false},
-//     {name:'danik',age:65, status: true},
-//     {name:'vetal',age:43, status: false},
-//     {name:'igor',age:32, status: false},
-//     {name:'kaktus',age:31, status: true},
-//     {name:'durik',age:11, status: false},
-//     {name:'dany',age:36, status: true},
-//     {name:'mr solve', age: 75, status: false}
-// ]
+function userPrinter(arr) {
+    for (let item of arr) {
+        document.write(`<div>`)
+        for (let element in item) {
+            document.write(` ${element} &nbsp; --- &nbsp;${item[element]}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`)
+        }
+        document.write(`</div>`)
+    }
+}
 
-// userPrinter(clients);
+let clients = [
+    {name:'vasya',age:31, status: true},
+    {name:'petya',age:34, status: true},
+    {name:'kolya',age:23, status: false},
+    {name:'danik',age:65, status: true},
+    {name:'vetal',age:43, status: false},
+    {name:'igor',age:32, status: false},
+    {name:'kaktus',age:31, status: true},
+    {name:'durik',age:11, status: false},
+    {name:'dany',age:36, status: true},
+    {name:'mr solve', age: 75, status: false}
+]
+
+userPrinter(clients);
 
 
 // - створити функцію яка повертає найменьше число з масиву
