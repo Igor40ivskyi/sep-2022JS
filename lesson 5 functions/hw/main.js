@@ -13,10 +13,12 @@
 // function circleSquareCounter(r) {
 //     const p = 3.14;
 //     let s = p * (r ** 2);
-//     console.log(s);
+//     return s;
 // }
 //
 // circleSquareCounter(5);
+// let number = circleSquareCounter(6);
+// console.log(number);
 
 
 
@@ -27,11 +29,14 @@
 // function cylinderSquareCounter(h, r) {
 //     const pp = 3.14;
 //     let s = 2 * pp * r * (r + h);
-//     console.log(s);
+//     return s;
 // }
 //
 // cylinderSquareCounter(3, 6);
 // cylinderSquareCounter(5, 6);
+// let number1 = cylinderSquareCounter(4, 4);
+// console.log(number1);
+
 
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
@@ -115,30 +120,30 @@
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
-function userPrinter(arr) {
-    for (let item of arr) {
-        document.write(`<div>`)
-        for (let element in item) {
-            document.write(` ${element} &nbsp; --- &nbsp;${item[element]}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`)
-        }
-        document.write(`</div>`)
-    }
-}
+// function userPrinter(arr) {
+//     for (let item of arr) {
+//         document.write(`<div>`)
+//         for (let element in item) {
+//             document.write(` ${element} &nbsp; --- &nbsp;${item[element]}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`)
+//         }
+//         document.write(`</div>`)
+//     }
+// }
+//
+// let clients = [
+//     {name:'vasya',age:31, status: true},
+//     {name:'petya',age:34, status: true},
+//     {name:'kolya',age:23, status: false},
+//     {name:'danik',age:65, status: true},
+//     {name:'vetal',age:43, status: false},
+//     {name:'igor',age:32, status: false},
+//     {name:'kaktus',age:31, status: true},
+//     {name:'durik',age:11, status: false},
+//     {name:'dany',age:36, status: true},
+//     {name:'mr solve', age: 75, status: false}
+// ]
 
-let clients = [
-    {name:'vasya',age:31, status: true},
-    {name:'petya',age:34, status: true},
-    {name:'kolya',age:23, status: false},
-    {name:'danik',age:65, status: true},
-    {name:'vetal',age:43, status: false},
-    {name:'igor',age:32, status: false},
-    {name:'kaktus',age:31, status: true},
-    {name:'durik',age:11, status: false},
-    {name:'dany',age:36, status: true},
-    {name:'mr solve', age: 75, status: false}
-]
-
-userPrinter(clients);
+// userPrinter(clients);
 
 
 // - створити функцію яка повертає найменьше число з масиву
@@ -172,7 +177,4 @@ userPrinter(clients);
 //
 // let sum = summer(arr2);
 // console.log(sum);
-
-
-
 
