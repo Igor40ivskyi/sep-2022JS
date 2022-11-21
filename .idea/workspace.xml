@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 5 hw">
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks 2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks 2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/additional lesson 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/additional lesson 4/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/lesson5/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 5 functions/hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 5 functions/hw/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\practice\lesson 6 methods\just playing" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson1\additional tasks" />
     </key>
   </component>
@@ -102,6 +116,22 @@
       <workItem from="1668501472740" duration="122000" />
       <workItem from="1668502691331" duration="331000" />
       <workItem from="1668539525358" duration="12000" />
+      <workItem from="1668628041871" duration="3546000" />
+      <workItem from="1668672661396" duration="2711000" />
+      <workItem from="1668706249193" duration="1808000" />
+      <workItem from="1668709905962" duration="93000" />
+      <workItem from="1668716940980" duration="1675000" />
+      <workItem from="1668756669906" duration="6661000" />
+      <workItem from="1668783097928" duration="2345000" />
+      <workItem from="1668789181885" duration="2023000" />
+      <workItem from="1668865979004" duration="9044000" />
+      <workItem from="1668889252512" duration="217000" />
+      <workItem from="1668947489832" duration="1027000" />
+      <workItem from="1668965504868" duration="40000" />
+      <workItem from="1668968949691" duration="4800000" />
+      <workItem from="1668974177116" duration="712000" />
+      <workItem from="1669016965172" duration="55000" />
+      <workItem from="1669017044095" duration="1348000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -173,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668500874689</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="have done the lesson 5 hw">
+      <created>1668628310512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668628310512</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
