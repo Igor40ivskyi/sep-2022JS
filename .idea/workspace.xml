@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 5 hw">
-      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks 2/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 5 functions/additional tasks/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/additional lesson 4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/additional lesson 4/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/hw of lesson 4 made by ForEach/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/lesson5/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 5 functions/hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 5 functions/hw/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +47,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -132,6 +121,12 @@
       <workItem from="1668974177116" duration="712000" />
       <workItem from="1669016965172" duration="55000" />
       <workItem from="1669017044095" duration="1348000" />
+      <workItem from="1669024029547" duration="3640000" />
+      <workItem from="1669056654253" duration="76000" />
+      <workItem from="1669060323806" duration="49000" />
+      <workItem from="1669133270923" duration="1310000" />
+      <workItem from="1669139584643" duration="640000" />
+      <workItem from="1669199267992" duration="7312000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -235,5 +230,9 @@
     <MESSAGE value="have done the lesson 4 additional tasks" />
     <MESSAGE value="have done the lesson 5 hw" />
     <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 5 hw" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
