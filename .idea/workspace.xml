@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 5 hw">
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/main.js" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 6 hw">
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional tasks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional tasks/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/hw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/hw/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 6 arrayMethods/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +133,33 @@
       <workItem from="1669060323806" duration="49000" />
       <workItem from="1669133270923" duration="1310000" />
       <workItem from="1669139584643" duration="640000" />
-      <workItem from="1669199267992" duration="7312000" />
+      <workItem from="1669199267992" duration="7337000" />
+      <workItem from="1669235193571" duration="4016000" />
+      <workItem from="1669273697577" duration="1649000" />
+      <workItem from="1669306546680" duration="2839000" />
+      <workItem from="1669311405625" duration="572000" />
+      <workItem from="1669314406081" duration="3619000" />
+      <workItem from="1669318767429" duration="151000" />
+      <workItem from="1669398044220" duration="703000" />
+      <workItem from="1669463875289" duration="6495000" />
+      <workItem from="1669533242833" duration="3551000" />
+      <workItem from="1669539856699" duration="35000" />
+      <workItem from="1669540814045" duration="1811000" />
+      <workItem from="1669544322928" duration="1033000" />
+      <workItem from="1669575777247" duration="6165000" />
+      <workItem from="1669622135701" duration="7849000" />
+      <workItem from="1669642455489" duration="1550000" />
+      <workItem from="1669662129372" duration="3873000" />
+      <workItem from="1669701409138" duration="601000" />
+      <workItem from="1669706186405" duration="3185000" />
+      <workItem from="1669734186553" duration="1654000" />
+      <workItem from="1669737744631" duration="4795000" />
+      <workItem from="1669743997371" duration="1572000" />
+      <workItem from="1669749220993" duration="84000" />
+      <workItem from="1669812553828" duration="6408000" />
+      <workItem from="1669882695492" duration="5602000" />
+      <workItem from="1669889695509" duration="476000" />
+      <workItem from="1669890186319" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -205,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668628310512</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="have done the lesson 6 hw">
+      <created>1669206668073</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669206668073</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +269,8 @@
     <MESSAGE value="have done the lesson4 hw tasks (adjust)" />
     <MESSAGE value="have done the lesson 4 additional tasks" />
     <MESSAGE value="have done the lesson 5 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 5 hw" />
+    <MESSAGE value="have done the lesson 6 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 6 hw" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

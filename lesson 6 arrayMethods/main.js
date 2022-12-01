@@ -66,13 +66,14 @@
 
 // let arr = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
 //
-// let arrStringify = arr.map(function (value, index, array) {
-//     let n = value.toString();
-//     return n
-// });
+// let strings = arr.map(value => value.toString());
+// console.log(strings);
 //
-// console.log(arr);
-// console.log(arrStringify);
+// let strings2 = arr.map(value => value + '');
+// console.log(strings2);
+//
+// let strings1 = arr.map(value => String(value));
+// console.log(strings1);
 
 
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
@@ -80,44 +81,25 @@
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 
-// let sortNumsAscending = (arr) => {
-//     arr.sort(function (a, b) {
-//         if (a > b) {
-//             return 1;
-//         }
-//         if (a < b) {
-//             return -1;
-//         }
-//         if (a === b) {
-//             return 0;
-//         }
-//     });
-// };
-//
-// let nums = [11,21,3];
-// sortNums(nums);
-//
-// console.log(nums);
-
-// let sortNumsDescending = (arr) => {
-//     arr.sort(function (a, b) {
-//         if (a > b) {
-//             return -1;
-//         }
-//         if (a < b) {
-//             return 1;
-//         }
-//         if (a === b) {
-//             return 0;
-//         }
-//     });
-// };
-//
 // let nums = [11,21,3];
 //
-// sortNumsDescending(nums);
-
-// console.log(nums);
+// let sortNums = (arr, direction) => {
+//     if (direction === 'ascending') {
+//         arr.sort((a, b) => a - b
+//         );
+//     }else if (direction === 'descending') {
+//         arr.sort((a, b) => b - a);
+//     }
+//     return arr;
+// };
+//
+// let sortNums1 = sortNums(nums, 'ascending');
+// console.log(sortNums1);
+//
+// let sortNums2 = sortNums(nums, 'descending');
+// console.log(sortNums2);
+//
+// console.log(sortNums(nums, 'ascending'));
 
 
 //
@@ -141,6 +123,13 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
+//
+// let aar = coursesAndDurationArray.sort((a, b) => b.monthDuration - a.monthDuration)
+//     .filter(value => value.monthDuration > 5);
+//
+// console.log(aar);
+
+
 //
 // let newCoursesAndDurationArray = coursesAndDurationArray.sort(function (a, b) {
 //     if (a.monthDuration > b.monthDuration) {
@@ -463,266 +452,356 @@
 // }
 
 
-let cardDeck = [
-
-    {
-        cardSuit: 'spade',
-        value: 6,
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 6,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 6,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 6,
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 7,
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 7,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 7,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 7,
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 8,
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 8,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 8,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 8,
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 9,
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 9,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 9,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 9,
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 10,
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 10,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 10,
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 10,
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 'jack',
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'jack',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 'jack',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'jack',
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 'queen',
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'queen',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 'queen',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'queen',
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 'king',
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'king',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 'king',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'king',
-        color: 'black'
-
-    },
-
-    {
-        cardSuit: 'spade',
-        value: 'ace',
-        color: 'black'
-
-    },
-    {
-        cardSuit: 'diamond',
-        value: 'ace',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'heart',
-        value: 'ace',
-        color: 'red'
-
-    },
-    {
-        cardSuit: 'clubs',
-        value: 'ace',
-        color: 'black'
-
-    },
-
-    {
-        value: 'joker',
-        color: 'red',
-    },
-
-    {
-        value: 'joker',
-        color: 'black',
-    }
-
-];
-
-let reduce = cardDeck.reduce((warehouse, value,arr) => {
-
-    if (value.cardSuit === 'spade') {
-        warehouse.spades.push(value)
-    }
-    if (value.cardSuit === 'diamond') {
-        warehouse.diamonds.push(value);
-    }
-    if (value.cardSuit === 'heart') {
-        warehouse.hearts.push(value);
-    }
-    if (value.cardSuit === 'clubs') {
-        warehouse.clubs.push(value);
-    }
-    return warehouse;
-},{spades:[],diamonds:[],hearts:[], clubs: []});
-
-console.log(reduce);
-
-
+// let cardDeck = [
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 6,
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 6,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 6,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 6,
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 7,
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 7,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 7,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 7,
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 8,
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 8,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 8,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 8,
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 9,
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 9,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 9,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 9,
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 10,
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 10,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 10,
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 10,
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 'jack',
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'jack',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'jack',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 'jack',
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 'queen',
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'queen',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'queen',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 'queen',
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 'king',
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'king',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'king',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 'king',
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         cardSuit: 'spade',
+//         value: 'ace',
+//         color: 'black'
+//
+//     },
+//     {
+//         cardSuit: 'diamond',
+//         value: 'ace',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'heart',
+//         value: 'ace',
+//         color: 'red'
+//
+//     },
+//     {
+//         cardSuit: 'clubs',
+//         value: 'ace',
+//         color: 'black'
+//
+//     },
+//
+//     {
+//         value: 'joker',
+//         color: 'red',
+//     },
+//
+//     {
+//         value: 'joker',
+//         color: 'black',
+//     }
+//
+// ];
+//
+// let reduce = cardDeck.reduce((warehouse, value,arr) => {
+//
+//     if (value.cardSuit === 'spade') {
+//         warehouse.spades.push(value)
+//     }
+//     if (value.cardSuit === 'diamond') {
+//         warehouse.diamonds.push(value);
+//     }
+//     if (value.cardSuit === 'heart') {
+//         warehouse.hearts.push(value);
+//     }
+//     if (value.cardSuit === 'clubs') {
+//         warehouse.clubs.push(value);
+//     }
+//     return warehouse;
+// },{spades:[],diamonds:[],hearts:[], clubs: []});
+//
+// console.log(reduce);
 
 
 
+//-------------------------------------------- the card deck task second approach -----------------------------------------
 
+// описати колоду карт
+// - знайти піковий туз
+// - всі шістки
+// - всі червоні карти
+// - всі буби
+// - всі трефи від 9 та більше
+//
+//
+// {
+//     cardSuit: '', // 'spade', 'diamond','heart', 'clubs'
+//         value: '', // '6'-'10', 'ace','jack','queen','king','joker'
+//     color:'', // 'red','black'
+// }
+
+
+// let suitsColors =
+//     [
+//         {cardSuit: 'spade', color: 'black'},
+//         {cardSuit: 'diamond', color: 'red'},
+//         {cardSuit: 'heart', color: 'red'},
+//         {cardSuit: 'clubs', color: 'black'},
+//     ];
+//
+// values = [6, 7, 8, 9, 10, 'jack', 'queen', 'king','ace'];
+//
+// let deckOfCards = [];
+//
+// for (let suitColor of suitsColors) {
+//     for (let value of values) {
+//         let card = {cardSuit: suitColor.cardSuit, value: value, color: suitColor.color};
+//         deckOfCards.push(card);
+//     }
+// }
+//
+// deckOfCards.push({value: 'jocker', color: 'black'}, {value: 'jocker', color: 'red'});
+//
+// console.log(deckOfCards);
+
+// - знайти піковий туз
+
+// let filter = deckOfCards.filter((value, index, array) => value.cardSuit === 'spade' && value.value === 'ace');
+// console.log(filter);
+
+
+// - всі шістки
+
+// let filter2 = deckOfCards.filter(value => value.value === 6);
+// console.log(filter2);
+
+
+// - всі червоні карти
+
+// let filter2 = deckOfCards.filter(value => value.color === 'red');
+// console.log(filter2);
+
+
+// - всі буби
+
+// let filter3 = deckOfCards.filter(value => value.cardSuit === 'diamond');
+// console.log(filter3);
+
+
+// - всі трефи від 9 та більше
+
+// let filter4 = deckOfCards.filter(value => value.value >= 9 && value.cardSuit === 'clubs' || typeof value.value === 'string' && value.cardSuit === 'clubs');
+// console.log(filter4);
+
+
+// Взяти описану колоду карт, та за допомоги редюсу попакувати всі карти по "мастях" в об'єкт
+// {
+//     spades:[],
+//         diamonds:[],
+//     hearts:[],
+//     clubs:[]
+// }
+
+
+// let reduce = deckOfCards.reduce((accum, value) => {
+//     if (value.cardSuit === 'spade' || (value.value === 'jocker' && value.color === 'black')) {
+//         accum.spades.push(value);
+//     } else if (value.cardSuit === 'diamond') {
+//         accum.diamonds.push(value);
+//     } else if (value.cardSuit === 'heart' || (value.value === 'jocker' && value.color === 'red')) {
+//         accum.hearts.push(value);
+//     } else if (value.cardSuit === 'clubs') {
+//         accum.clubs.push(value);
+//     }
+//     return accum;
+// },{spades:[],diamonds:[],hearts:[], clubs: []});
+//
+// console.log(reduce);
