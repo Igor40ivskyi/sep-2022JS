@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 6 hw">
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional tasks/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/hw/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/hw/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 6 arrayMethods/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/lesson 6 methods/just playing/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +152,8 @@
       <workItem from="1669882695492" duration="5602000" />
       <workItem from="1669889695509" duration="476000" />
       <workItem from="1669890186319" duration="65000" />
+      <workItem from="1669896605997" duration="252000" />
+      <workItem from="1669900506595" duration="2169000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
