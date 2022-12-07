@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 6 hw">
-      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="lesson 7 trying to do the additional task">
+      <change afterPath="$PROJECT_DIR$/lesson 8 constructor/hw8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 8 constructor/hw8/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vitalik`s task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vitalik`s task/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -153,7 +157,20 @@
       <workItem from="1669889695509" duration="476000" />
       <workItem from="1669890186319" duration="65000" />
       <workItem from="1669896605997" duration="252000" />
-      <workItem from="1669900506595" duration="2169000" />
+      <workItem from="1669900506595" duration="2232000" />
+      <workItem from="1669905236018" duration="3000" />
+      <workItem from="1669921742005" duration="163000" />
+      <workItem from="1669995716539" duration="182000" />
+      <workItem from="1670001601208" duration="329000" />
+      <workItem from="1670147060448" duration="5913000" />
+      <workItem from="1670153062151" duration="1384000" />
+      <workItem from="1670154473253" duration="19000" />
+      <workItem from="1670157496020" duration="523000" />
+      <workItem from="1670176990280" duration="1958000" />
+      <workItem from="1670180491838" duration="41000" />
+      <workItem from="1670230771845" duration="7683000" />
+      <workItem from="1670387480826" duration="3123000" />
+      <workItem from="1670412293306" duration="3075000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -239,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669206668073</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="lesson 7 trying to do the additional task">
+      <created>1669902745017</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669902745017</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +288,8 @@
     <MESSAGE value="have done the lesson 4 additional tasks" />
     <MESSAGE value="have done the lesson 5 hw" />
     <MESSAGE value="have done the lesson 6 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 6 hw" />
+    <MESSAGE value="lesson 7 trying to do the additional task" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 7 trying to do the additional task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

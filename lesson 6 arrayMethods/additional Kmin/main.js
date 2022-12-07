@@ -167,19 +167,19 @@
 
 // e) Всі хто одружений мають попасти у новий масив та отримати квартиру (reduce)
 
-const users = [
-        {name: 'vasya', age: 31, isMarried: false},
-        {name: 'petya', age: 30, isMarried: true},
-        {name: 'kolya', age: 29, isMarried: true},
-        {name: 'olya', age: 28, isMarried: false},
-        {name: 'max', age: 30, isMarried: true},
-        {name: 'anya', age: 31, isMarried: false},
-        {name: 'oleg', age: 28, isMarried: false},
-        {name: 'andrey', age: 29, isMarried: true},
-        {name: 'masha', age: 30, isMarried: true},
-        {name: 'olya', age: 31, isMarried: false},
-        {name: 'max', age: 31, isMarried: true}
-    ];
+// const users = [
+//         {name: 'vasya', age: 31, isMarried: false},
+//         {name: 'petya', age: 30, isMarried: true},
+//         {name: 'kolya', age: 29, isMarried: true},
+//         {name: 'olya', age: 28, isMarried: false},
+//         {name: 'max', age: 30, isMarried: true},
+//         {name: 'anya', age: 31, isMarried: false},
+//         {name: 'oleg', age: 28, isMarried: false},
+//         {name: 'andrey', age: 29, isMarried: true},
+//         {name: 'masha', age: 30, isMarried: true},
+//         {name: 'olya', age: 31, isMarried: false},
+//         {name: 'max', age: 31, isMarried: true}
+//     ];
 //
 // let reduce = users.reduce((accum, value) => {
 //     if (value.isMarried === true) {
@@ -192,8 +192,8 @@ const users = [
 // },{married:[], notMarried: []});
 //
 // console.log(reduce);
-
-
+//
+//
 // let reduce2 = users.reduce((acc, value) => {
 //     if (value.isMarried) {
 //         value.flat = true;
@@ -203,6 +203,58 @@ const users = [
 // },[]);
 //
 // console.log(reduce2);
+
+// ================================ розкладання acc start ======================================================================
+
+// const users = [
+//         {name: 'vasya', age: 31, isMarried: true},
+//         {name: 'petya', age: 30, isMarried: false},
+//         {name: 'kolya', age: 29, isMarried: true},
+//         {name: 'olya', age: 28, isMarried: false},
+//         {name: 'max', age: 30, isMarried: true},
+//         {name: 'anya', age: 31, isMarried: true},
+//         {name: 'oleg', age: 28, isMarried: false},
+//         {name: 'andrey', age: 29, isMarried: true},
+//         {name: 'masha', age: 30, isMarried: false},
+//         {name: 'olya', age: 31, isMarried: true},
+//         {name: 'max', age: 31, isMarried: false}
+//     ];
+//
+// let reduce = users.reduce((acc, value, index) => value.isMarried ? [...acc, {...value, flat: index + 1}] :acc, []);
+//
+// console.log(reduce);
+
+// =========================== отак працює редюс і то треба вивчити просто start ! ===================================================
+
+// let reduce2 = users.reduce((acc, value, index) => value.isMarried ? [...acc, {
+//         ...value,
+//         flat: index + 1
+// }] : [...acc, {...value, flat: true}], []);
+
+
+// =========================== отак працює редюс і то треба вивчити просто end ! ===================================================
+
+
+
+// ================================================== розкладання acc end ==================================================================
+
+
+// let arr = [1, 2, 3, 4, 5];
+// let reduce = arr.reduce((acc, value) => acc + value,);
+//
+// console.log(reduce);
+
+// let a = [];
+// a.push('item1', 'item2', 'item3', 'item4', 'item5');
+//
+// // console.log(a);
+//
+// let b = [...a];
+//
+// // console.log(a === b);
+//
+// let c = [...a];
+// console.log(b === c);
 
 
 // ______________________________________________________________________________________________________________________________________________________
@@ -232,15 +284,29 @@ const users = [
 // let filter = cars.filter(value => value.volume > 3);
 // console.log(filter);
 
+// let reduce = cars.reduce((acc, value) => value.volume > 2 ? [...acc,{...value}] : acc, []);
+// console.log(reduce);
+
+
 // - двигун = 2л
 
 // let filter1 = cars.filter((value, index) => value.volume === 2);
 // console.log(filter1);
 
+// let reduce2 = cars.reduce((acc, value) => value.volume === 2 ? [...acc, {...value, superCar: true}] : acc, []);
+// console.log(reduce2);
+
 // - виробник мерс
 
 // let filter2 = cars.filter(value => value.producer === 'mercedes');
 // console.log(filter2);
+
+// let reduce3 = cars.reduce((acc, value) => value.producer === 'mercedes' ? [...acc, {...value, isMers: true}] : [...acc, {
+//         ...value,
+//         isMers: false
+// }], []);
+//
+// console.log(reduce3);
 
 // - двигун більше 3х літрів + виробник мерседес
 
@@ -257,10 +323,25 @@ const users = [
 // let filter5 = cars.filter(value => value.power > 300);
 // console.log(filter5);
 
+// let reduce5 = cars.reduce((acc, value) => value.power > 300 ? [...acc, {...value, more300: true}] : [...acc, {
+//         ...value,
+//         more300: false
+// }], []);
+//
+// console.log(reduce5);
+
+
 // - сили більше ніж 300 + виробник субару
 
 // let filter6 = cars.filter(value => value.power > 300 && value.producer === 'subaru');
 // console.log(filter6);
+
+// let reduce6 = cars.reduce((acc, value) => value.power > 300 && value.producer === 'subaru' ? [...acc, {
+//         ...value,
+//         powerMore300AndSubaru: true
+// }] : acc, []);
+//
+// console.log(reduce6);
 
 // - мотор серіі ej
 
