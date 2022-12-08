@@ -1,0 +1,27 @@
+/*.member{*/
+/*    margin: 30px;*/
+
+/*}*/
+
+.course {
+    border: 2px solid black;
+    /*height: 100px;*/
+    /*width: 100%;*/
+    margin: 10px;
+
+}
+.modules{
+    margin-top: 10px;
+    border: 2px solid darkblue;
+    /*height: 100px;*/
+}
+
+.module{
+    margin-top: 5px;
+    border: 2px solid darkgreen;
+}
+
+.key{
+    margin-top: 2px;
+    border: 2px solid rebeccapurple;
+}

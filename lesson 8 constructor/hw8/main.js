@@ -149,31 +149,51 @@
 //         this.year = year;
 //         this.maxSpeed = maxSpeed;
 //         this.volume = volume;
-//
-//         this.drive = function () {
-//             console.log(`їдемо зі швидкістю ${this.maxSpeed}`);
-//         };
-//         this.info = function () {
-//             console.log(this);
-//         };
-//         this.increaseMaxSpeed = function (newSpeed) {
-//             this.maxSpeed = newSpeed;
-//         };
-//         this.changeYear = function (newValue) {
-//             this.year = newValue;
-//         };
-//         this.ddDriver = function (driverObj) {
-//             this.driver = driverObj;
-//         };
 //     }
+//
+//     drive() {
+//         console.log(`їдемо зі швидкістю ${this.maxSpeed}km на годину`);
+//     }
+//
+//     info() {
+//         for (let key in this) {
+//             if (typeof key !== "function") {
+//                 console.log(`${key} --- ${this[key]}`);
+//             }
+//         }
+//     }
+//
+//     increaseMaxSpeed(newSpeed) {
+//         this.maxSpeed += newSpeed;
+//     }
+//
+//     changeYear(newValue) {
+//         this.year = newValue
+//     }
+//
+//     addDriver(driverObj) {
+//         this.driver = driverObj;
+//     }
+//
 // }
 //
-// let car = new Car('passat', 'volkswagen', 2005, 350, 2);
-// console.log(car);
+// let car = new Car('jeep', 'GMC', 2000, 300, 3);
 //
+// car.drive()
 // car.info();
 //
-// car.changeYear(2020);
+// car.increaseMaxSpeed(30);
+// console.log(car.maxSpeed);
+//
+// car.changeYear(999);
+// console.log(car.year);
+//
+// console.log(car);
+//
+// car.addDriver({name:'vasya', age: 20})
+//
+// console.log(car);
+
 
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
@@ -192,18 +212,18 @@
 //     this.feetSize = feetSize;
 //
 // }
-//
+// //
 // let cinderellas = [
-//     new Cinderella('hanya', 33, '9us'),
-//     new Cinderella('hanya', 33, '8us'),
-//     new Cinderella('hanya', 33, '6us'),
-//     new Cinderella('hanya', 33, '9us'),
-//     new Cinderella('hanya', 33, '6us'),
-//     new Cinderella('hanya', 33, '5us'),
-//     new Cinderella('hanya', 33, '2us'),
-//     new Cinderella('hanya', 33, '1us'),
-//     new Cinderella('hanya', 33, '3us'),
-//     new Cinderella('hanya', 33, '10us')
+//     new Cinderella('vika', 33, '9us'),
+//     new Cinderella('tanya', 33, '8us'),
+//     new Cinderella('lilya', 33, '6us'),
+//     new Cinderella('kamila', 33, '11us'),
+//     new Cinderella('andy', 33, '6us'),
+//     new Cinderella('lida', 33, '5us'),
+//     new Cinderella('karina', 33, '2us'),
+//     new Cinderella('aniston', 33, '1us'),
+//     new Cinderella('kameron', 33, '3us'),
+//     new Cinderella('hailey', 33, '10us')
 // ];
 
 
@@ -230,11 +250,22 @@
 //         foundCinderella = cinderella;
 //     }
 // }
-//
+
 // console.log(foundCinderella);
+
+
+// let findCinderella = (arr, boy) => {
+//     for (let item of arr) {
+//         if (item.feetSize === boy.shoe) {
+//             console.log(`my cinderella is ${item.name}`);
+//         }
+//     }
+// };
+//
+// findCinderella(cinderellas, prince)
 
 
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-// let cinderella1 = cinderellas.find(cinderella => cinderella.feetSize === '9us');
-// console.log(cinderella1);
+// let cinderella = cinderellas.find(value => value.feetSize === prince.shoe);
+// console.log(cinderella);

@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="lesson 7 trying to do the additional task">
-      <change afterPath="$PROJECT_DIR$/lesson 8 constructor/hw8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 8 constructor/hw8/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vitalik`s task/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vitalik`s task/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/hw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/hw/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/hw/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 6 arrayMethods/additional Kmin/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 8 constructor/hw8/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 8 constructor/hw8/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,11 @@
       <workItem from="1670180491838" duration="41000" />
       <workItem from="1670230771845" duration="7683000" />
       <workItem from="1670387480826" duration="3123000" />
-      <workItem from="1670412293306" duration="3075000" />
+      <workItem from="1670412293306" duration="3286000" />
+      <workItem from="1670416277977" duration="607000" />
+      <workItem from="1670419136654" duration="2049000" />
+      <workItem from="1670491081988" duration="3820000" />
+      <workItem from="1670506366172" duration="4822000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -263,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669902745017</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="lesson 7 trying to do the additional task">
+      <created>1670415413915</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670415413915</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
