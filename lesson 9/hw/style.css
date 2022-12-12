@@ -1,27 +1,70 @@
+/*======================================================= first task start ================================================*/
 /*.member{*/
 /*    margin: 30px;*/
 
 /*}*/
+/*================================================== first task end ==================================================*/
 
-.course {
-    border: 2px solid black;
-    /*height: 100px;*/
-    /*width: 100%;*/
-    margin: 10px;
+/*===================================================== second task start ====================================================*/
+/*.mainDiv {*/
+/*    border: 2px solid red;*/
+/*}*/
 
-}
-.modules{
-    margin-top: 10px;
-    border: 2px solid darkblue;
-    /*height: 100px;*/
-}
+/*.keyBlock{*/
+/*    border: 2px solid blue;*/
+/*    margin: 5px;*/
+/*}*/
 
-.module{
-    margin-top: 5px;
-    border: 2px solid darkgreen;
-}
+/*.ulBlock{*/
+/*    border: 2px solid darkgreen;*/
+/*    margin: 5px;*/
+/*}*/
+/*.color{*/
+/*    color: goldenrod;*/
+/*}*/
 
-.key{
-    margin-top: 2px;
-    border: 2px solid rebeccapurple;
+/*======================================================== second task end ===============================================*/
+
+/*=================================================== third task start =====================================================*/
+
+/*.wrap {*/
+/*    margin: 30px;*/
+/*    font-size: 30px;*/
+/*    color: gold;*/
+/*    background: silver;*/
+/*    font-family: Arial;*/
+/*    width: 500px;*/
+/*    height: 400px;*/
+/*    text-align: center;*/
+/*    padding-top: 40px;*/
+/*}*/
+
+/*=======================*/
+
+/*.block {*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    background: red;*/
+/*    color: whitesmoke;*/
+/*    font-family: "Arial Unicode MS";*/
+/*    font-size: 30px;*/
+/*    text-align: center;*/
+/*    padding-top: 20px;*/
+/*}*/
+
+/*.displayNone {*/
+/*    display: none;*/
+
+/*}*/
+/*=======================*/
+
+/*.button{*/
+/*    width: 100px;*/
+/*    height: 30px;*/
+/*    display: block;*/
+/*}*/
+
+.table{
+    width: 50%;
+    height: 200px;
 }

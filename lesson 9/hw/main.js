@@ -40,28 +40,24 @@
 //
 //     Якщо людською мовою: під кожного члена родини зробити блок та наповнити його інформацією з цього об'єкту
 
-
 // for (let simpson of simpsons) {
-//     let divElement = document.createElement('div');
-//     divElement.classList.add('member');
+//     const {name, surname, age, info, photo} = simpson;
 //
-//     let h2Element = document.createElement('h2');
-//     h2Element.innerText = `${simpson.name} ${simpson.surname} ${simpson.age}`;
+//     let memberDiv = document.createElement('div');
+//     memberDiv.classList.add('member');
 //
-//     let pElement = document.createElement('p');
-//     pElement.innerText = `${simpson.info}`
+//     let simpsonDiv = document.createElement('div');
+//     simpsonDiv.innerText = `${name} -- ${surname} -- ${age}
 //
+//     ${info}
+//     `;
 //
-//     let imgElement = document.createElement('img');
-//     imgElement.innerHTML = `<img src="${simpson.photo}" alt="${simpson.name}">`
+//     let img =document.createElement('img');
+//     img.src = photo;
 //
-//
-//     divElement.append(h2Element, pElement, imgElement);
-//
-//     document.body.appendChild(divElement)
-//
+//     memberDiv.append(simpsonDiv, img);
+//     document.body.append(memberDiv);
 // }
-
 
 
 //
@@ -69,124 +65,112 @@
 //
 // Цикл в циклі
 // - Є масив
-let coursesArray = [
-    {
-        title: 'JavaScript Complex',
-        monthDuration: 5,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
-    },
-    {
-        title: 'Java Complex',
-        monthDuration: 6,
-        hourDuration: 909,
-        modules: ['html',
-            'css',
-            'js',
-            'mysql',
-            'mongodb',
-            'angular',
-            'aws',
-            'docker',
-            'git',
-            'java core',
-            'java advanced']
-    },
-    {
-        title: 'Python Complex',
-        monthDuration: 6,
-        hourDuration: 909,
-        modules: ['html',
-            'css',
-            'js',
-            'mysql',
-            'mongodb',
-            'angular',
-            'aws',
-            'docker',
-            'python core',
-            'python advanced']
-    },
-    {
-        title: 'QA Complex',
-        monthDuration: 4,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
-    },
-    {
-        title: 'FullStack',
-        monthDuration: 7,
-        hourDuration: 909,
-        modules: ['html',
-            'css',
-            'js',
-            'mysql',
-            'mongodb',
-            'react',
-            'angular',
-            'aws',
-            'docker',
-            'git',
-            'node.js',
-            'python',
-            'java']
-    },
-    {
-        title: 'Frontend',
-        monthDuration: 4,
-        hourDuration: 909,
-        modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
-    }
-];
+// let coursesArray = [
+//     {
+//         title: 'JavaScript Complex',
+//         monthDuration: 5,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'node.js']
+//     },
+//     {
+//         title: 'Java Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'java core',
+//             'java advanced']
+//     },
+//     {
+//         title: 'Python Complex',
+//         monthDuration: 6,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'python core',
+//             'python advanced']
+//     },
+//     {
+//         title: 'QA Complex',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'git', 'QA/QC']
+//     },
+//     {
+//         title: 'FullStack',
+//         monthDuration: 7,
+//         hourDuration: 909,
+//         modules: ['html',
+//             'css',
+//             'js',
+//             'mysql',
+//             'mongodb',
+//             'react',
+//             'angular',
+//             'aws',
+//             'docker',
+//             'git',
+//             'node.js',
+//             'python',
+//             'java']
+//     },
+//     {
+//         title: 'Frontend',
+//         monthDuration: 4,
+//         hourDuration: 909,
+//         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
+//     }
+// ];
 
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 
-for (let course of coursesArray) {
-    let courseDiv = document.createElement('div');
-    courseDiv.classList.add('course');
-
-    document.body.append(courseDiv);
-
-    for (let key in course) {
-        if (typeof course[key] === "string" || typeof course[key] === "number"){
-
-            if (key === 'title'){
-                let keyDiv = document.createElement('div');
-                keyDiv.classList.add('key');
-                courseDiv.append(keyDiv);
-                keyDiv.innerText = `${key}`;
-
-                let monthHourWrap = document.createElement('div');
-                monthHourWrap.classList.add('monthHourWrap')
-                courseDiv.append(monthHourWrap);
-            }
-            else if (key === 'monthDuration' || key === 'hourDuration') {
-                let hourOrMonthDiv = document.createElement('div');
-                monthHourWrap.append(hourOrMonthDiv);
-
-
-            }
-
-
-
-        }
-        if (typeof course[key] === 'object') {
-            let modulesDiv = document.createElement('div');
-            modulesDiv.classList.add('modules')
-            courseDiv.append(modulesDiv);
-
-
-            for (let module of course[key]) {
-                let moduleDiv = document.createElement('div');
-                moduleDiv.classList.add('module')
-                moduleDiv.innerText = `${module}`;
-                modulesDiv.append(moduleDiv)
-
-            }
-        }
-    }
-}
+// for (let obj of coursesArray) {
+//
+//     let mainDiv = document.createElement('div');
+//     mainDiv.classList.add('mainDiv');
+//     document.body.append(mainDiv);
+//
+//     let titleDiv = document.createElement('div');
+//     titleDiv.innerText = `${obj.title}`;
+//     titleDiv.classList.add('keyBlock');
+//     mainDiv.append(titleDiv);
+//
+//     let monthDurationDiv = document.createElement('div');
+//     monthDurationDiv.innerText = `${obj.monthDuration}`;
+//     monthDurationDiv.classList.add('keyBlock');
+//     mainDiv.append(monthDurationDiv);
+//
+//     let hourDurationDiv = document.createElement('div');
+//     hourDurationDiv.innerText = `${obj.hourDuration}`;
+//     hourDurationDiv.classList.add('keyBlock');
+//     mainDiv.append(hourDurationDiv);
+//
+//     let ul = document.createElement('ul');
+//     ul.classList.add('ulBlock');
+//     mainDiv.append(ul);
+//
+//     for (let item of obj.modules) {
+//
+//         let li = document.createElement('li');
+//         li.innerText = item;
+//         li.classList.add('keyBlock','color');
+//         ul.append(li);
+//     }
+// }
 
 
 
@@ -199,12 +183,35 @@ for (let course of coursesArray) {
 // - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту
 // - додати цей блок в body.
 // - клонувати його повністю, та додати клон в body.
+
+// let blockDiv = document.createElement('div');
+// document.body.append(blockDiv);
+// blockDiv.classList.add('wrap', 'collapse', 'alpha', 'beta');
+// blockDiv.innerText = `TEQUILA`;
 //
+// let blockDivClone = blockDiv.cloneNode(true);
+// document.body.append(blockDivClone);
+
+
+
 // - Є масив:
 //     ['Main','Products','About us','Contacts']
 // Взяти файл template1.html та додати в нього скріпт котрий для кожного елементу масиву створює li та додає його до блоку .menu
 // Завдання робити через цикли.
+
+// let arr = ['Main', 'Products', 'About us', 'Contacts'];
 //
+// let menuUl = document.getElementsByClassName('menu')[0];
+//
+// for (let item of arr) {
+//
+//     let li = document.createElement('li');
+//     li.innerText = item;
+//     menuUl.append(li);
+//
+// }
+
+
 // - Є масив
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
@@ -217,6 +224,15 @@ for (let course of coursesArray) {
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
 //
+
+// for (let obj of coursesAndDurationArray) {
+//
+//     let divElement = document.createElement('div');
+//     divElement.innerText = `${obj.title} -- ${obj.monthDuration}`;
+//     document.body.append(divElement);
+// }
+
+
 // - Є масив
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
@@ -231,16 +247,131 @@ for (let course of coursesArray) {
 // За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
 //     Завдання робити через цикли.
 //
+
+// for (let element of coursesAndDurationArray) {
 //
+//     let mainDiv = document.createElement('div');
+//     mainDiv.classList.add('item');
+//     document.body.append(mainDiv);
+//
+//     for (let key in element) {
+//
+//         if (key === 'title') {
+//
+//         let h1 = document.createElement('h1');
+//         h1.classList.add('heading');
+//         h1.innerText = `${element[key]}`
+//             mainDiv.append(h1);
+//         }
+//
+//         if (key === 'monthDuration') {
+//
+//             let p = document.createElement('p');
+//             p.classList.add('description');
+//             p.innerText = `${element[key]}`;
+//             mainDiv.append(p);
+//         }
+//     }
+// }
+
+
+// for (let item of coursesAndDurationArray) {
+//
+//     let htmlDivElement = document.createElement('div');
+//     htmlDivElement.classList.add('item');
+//     document.body.append(htmlDivElement);
+//
+//     let h1 = document.createElement('h1');
+//     h1.innerText = `${item.title}`;
+//     h1.classList.add('heading');
+//
+//     let p = document.createElement('p');
+//     p.innerText = `${item.monthDuration}`;
+//     p.classList.add('description');
+//
+//     htmlDivElement.append(h1, p);
+//
+// }
+
+
+
+
 //
 // -----------
 //
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+
+// let blockDiv = document.createElement('div');
+// blockDiv.classList.add('block');
+// blockDiv.innerText = 'Tequila';
+// blockDiv.setAttribute('id', 'text');
 //
+// let buttonElement = document.createElement('button');
+// buttonElement.innerText = 'click';
+// buttonElement.onclick = function (ev) {
+//     blockDiv.classList.toggle('displayNone');
+// };
 //
+// document.body.append(blockDiv, buttonElement);
+
+
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+
+// let input = document.createElement("input");
+// input.type = 'number';
+// let button = document.createElement('button');
+// button.classList.add('button');
+// button.innerText = 'click';
+// document.body.append(input, button);
 //
-//
+// button.onclick = () => {
+//     // input.oninput;
+//     if (input.value < 18) {
+//         alert('wrong age!');
+//     }else {
+//         alert('ok');
+//     }
+// };
+
+
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+
+// let inputOne = document.createElement('input');
+// let inputTwo = document.createElement('input');
+// let inputThree = document.createElement('input');
+//
+// let button = document.createElement('button');
+// button.innerText = 'hit';
+//
+// document.body.append(inputOne, inputTwo, inputThree, button);
+//
+// button.onclick = () => {
+//
+//     let tr = inputOne.value;
+//     let td = inputTwo.value;
+//     let text = inputThree.value;
+//
+//     const generateTable = (raws, columns, word) => {
+//
+//         let table = document.createElement('table');
+//         table.classList.add('table')
+//         table.style.border = '2 px solid gold';
+//         document.body.append(table);
+//
+//         for (let i = 0; i < raws; i++) {
+//             let raw = document.createElement('tr');
+//             table.append(raw);
+//
+//             for (let j = 0; j < columns; j++) {
+//                 let column = document.createElement('td');
+//                 column.innerText = word;
+//                 column.style.background = 'grey';
+//                 raw.append(column);
+//                 column.style.color = 'red'
+//             }
+//         }
+//     };
+//     generateTable(tr, td, text);
+// };
