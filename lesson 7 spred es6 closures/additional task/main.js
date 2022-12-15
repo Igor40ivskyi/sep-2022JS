@@ -133,7 +133,7 @@ class Teg {
     }
 }
 
-class Atributs {
+class Atribut {
 
     constructor(titleOfAttr, actionOfAttr) {
         this.titleOfAttr = titleOfAttr;
@@ -144,21 +144,52 @@ class Atributs {
 // -a
 
 
-let tegA = new Teg('a', 'визначає гіперсилку, для переходу на певне місце на сторінці', [new Atributs('download', 'повід' +
-    'омляє, що ця ссилка повинна була би бути використана для скачування файлу'), new Atributs('href', 'єдиний обовязковий атрибут для визначення ссилки')]);
+let aTeg = new Teg('a', 'визначає гіперсилку, для переходу на певне місце на сторінці', [new Atribut('download', 'повід' +
+    'омляє, що ця ссилка повинна була би бути використана для скачування файлу'), new Atribut('href', 'єдиний обовязковий атрибут для визначення ссилки')]);
 
-console.log(tegA);
+console.log(aTeg);
 
 
 // -div
 
+let divTeg = new Teg('div', 'є універсальним контейнером для контенту', [new Atribut('class', 'дозволяє отримувати досту до елементів і стилізувати їх'), new Atribut('id',
+    'унікальний ідентифікатор')]);
+
+console.log(divTeg);
 
 // -h1
+
+let h1Teg = new Teg('h1', 'є заголовком виділяє текст жирним', [new Atribut('class', 'дозволяє отримувати досту до елементів і стилізувати їх'), new Atribut('id',
+    'унікальний ідентифікатор')]);
+
+console.log(h1Teg);
+
 // -span
+
+let spanTeg = new Teg('span', 'є основним стрічковим контейнером для фразового контенту', ['atribut1', 'atribut2']);
+
 // -input
+
+let input = new Teg('input', 'використовується для отримування інформації від користувача', [new Atribut('type', 'тип елементу відобраєення'), new Atribut(
+    'acept', 'приймає щось'
+)]);
+
+console.log(input);
+
 // -form
+
+let form = new Teg('form', 'sdfs', [1, 2]);
+
+console.log(form);
+
 // -option
+
+let option = new Teg('option', 'sdjfkfdj ', [1, 2]);
+
 // -select
+
+let select = new Teg('select', 'sajdfklj s', [1, 2]);
+
 
 
 

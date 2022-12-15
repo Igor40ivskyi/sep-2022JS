@@ -138,39 +138,39 @@
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 
-// for (let obj of coursesArray) {
-//
-//     let mainDiv = document.createElement('div');
-//     mainDiv.classList.add('mainDiv');
-//     document.body.append(mainDiv);
-//
-//     let titleDiv = document.createElement('div');
-//     titleDiv.innerText = `${obj.title}`;
-//     titleDiv.classList.add('keyBlock');
-//     mainDiv.append(titleDiv);
-//
-//     let monthDurationDiv = document.createElement('div');
-//     monthDurationDiv.innerText = `${obj.monthDuration}`;
-//     monthDurationDiv.classList.add('keyBlock');
-//     mainDiv.append(monthDurationDiv);
-//
-//     let hourDurationDiv = document.createElement('div');
-//     hourDurationDiv.innerText = `${obj.hourDuration}`;
-//     hourDurationDiv.classList.add('keyBlock');
-//     mainDiv.append(hourDurationDiv);
-//
-//     let ul = document.createElement('ul');
-//     ul.classList.add('ulBlock');
-//     mainDiv.append(ul);
-//
-//     for (let item of obj.modules) {
-//
-//         let li = document.createElement('li');
-//         li.innerText = item;
-//         li.classList.add('keyBlock','color');
-//         ul.append(li);
-//     }
-// }
+for (let obj of coursesArray) {
+
+    let mainDiv = document.createElement('div');
+    mainDiv.classList.add('mainDiv');
+    document.body.append(mainDiv);
+
+    let titleDiv = document.createElement('div');
+    titleDiv.innerText = `${obj.title}`;
+    titleDiv.classList.add('keyBlock');
+    mainDiv.append(titleDiv);
+
+    let monthDurationDiv = document.createElement('div');
+    monthDurationDiv.innerText = `${obj.monthDuration}`;
+    monthDurationDiv.classList.add('keyBlock');
+    mainDiv.append(monthDurationDiv);
+
+    let hourDurationDiv = document.createElement('div');
+    hourDurationDiv.innerText = `${obj.hourDuration}`;
+    hourDurationDiv.classList.add('keyBlock');
+    mainDiv.append(hourDurationDiv);
+
+    let ul = document.createElement('ul');
+    ul.classList.add('ulBlock');
+    mainDiv.append(ul);
+
+    for (let item of obj.modules) {
+
+        let li = document.createElement('li');
+        li.innerText = item;
+        li.classList.add('keyBlock','color');
+        ul.append(li);
+    }
+}
 
 
 

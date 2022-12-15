@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="lesson 9 trying to do the hw">
-      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/hw/template1.html" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="doing the lesson7 additional">
+      <change afterPath="$PROJECT_DIR$/lesson 9/additional task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/additional task/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/additional task/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task closure/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional tasks/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task closure/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 9/hw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/hw/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task closure/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task closure/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/additional task/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 9/hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/hw/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 9/hw/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/hw/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +183,14 @@
       <workItem from="1670746039181" duration="2342000" />
       <workItem from="1670760211108" duration="3551000" />
       <workItem from="1670763964997" duration="106000" />
-      <workItem from="1670831208379" duration="5479000" />
+      <workItem from="1670831208379" duration="6527000" />
+      <workItem from="1670874421446" duration="371000" />
+      <workItem from="1670916545113" duration="7140000" />
+      <workItem from="1670924833348" duration="113000" />
+      <workItem from="1670952133254" duration="5255000" />
+      <workItem from="1670996936139" duration="2191000" />
+      <workItem from="1671024606283" duration="4860000" />
+      <workItem from="1671096828995" duration="2272000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -292,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670511266953</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="doing the lesson7 additional">
+      <created>1670837934055</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670837934055</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +331,8 @@
     <MESSAGE value="have done the lesson 6 hw" />
     <MESSAGE value="lesson 7 trying to do the additional task" />
     <MESSAGE value="lesson 9 trying to do the hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 trying to do the hw" />
+    <MESSAGE value="doing the lesson7 additional" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing the lesson7 additional" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
