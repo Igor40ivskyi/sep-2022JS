@@ -235,57 +235,114 @@
 //
 // Створити під кожен елемент окремий блок. В цьому блоці, під кожну властивість, та властивості внутрішніх об'єктів створити свої окремі блок.
 
-
 for (let user of usersList) {
 
     let userDiv = document.createElement('div');
-    userDiv.classList.add('userDiv');
     document.body.append(userDiv);
+    userDiv.classList.add('userDiv');
 
     for (let key in user) {
 
         if (typeof user[key] === 'object') {
 
-            let keyDiv2 = document.createElement('div');
-            userDiv.append(keyDiv2);
-            keyDiv2.classList.add('keyDiv');
-            keyDiv2.innerText = `${key}`
+            let keyDivO = document.createElement('div');
+            keyDivO.classList.add('keyDiv');
+            keyDivO.innerText = key;
+            console.log(key);
+            userDiv.append(keyDivO);
 
             for (let field in user[key]) {
 
                 if (typeof user[key][field] === 'object') {
 
-                    let keyDiv3 = document.createElement('div');
-                    keyDiv3.classList.add('keyDiv');
-                    userDiv.append(keyDiv3)
-                    keyDiv3.innerText = field
+                    let keyDivO2 = document.createElement('div');
+                    keyDivO2.classList.add('keyDiv');
+                    keyDivO2.innerText = field;
+                    userDiv.append(keyDivO2)
 
                     for (let property in user[key][field]) {
-                        let keyDiv4 = document.createElement('div');
-                        keyDiv4.classList.add('keyDiv');
-                        userDiv.append(keyDiv4);
-                        keyDiv4.innerText = user[key][field][property];
+
+                        let keyDivNO3 = document.createElement('div');
+                        keyDivNO3.classList.add('keyDiv');
+                        keyDivNO3.innerText = user[key][field][property];
+                        userDiv.append(keyDivNO3);
                     }
 
-
-                }else {
-
-                let fieldDiv = document.createElement('div');
-                fieldDiv.classList.add('keyDiv')
-                fieldDiv.innerText = `${user[key][field]}`;
-                userDiv.append(fieldDiv);
+                } else {
+                    let keyDivNO2 = document.createElement('div');
+                    keyDivNO2.classList.add('keyDiv');
+                    keyDivNO2.innerText = user[key][field];
+                    userDiv.append(keyDivNO2);
                 }
-                        }
+            }
         } else {
-
-            let keyDiv = document.createElement('div');
-            keyDiv.classList.add('keyDiv')
-            keyDiv.innerText = `${user[key]}`;
-            userDiv.append(keyDiv);
+            let keyDivNO = document.createElement('div')
+            keyDivNO.classList.add('keyDiv');
+            keyDivNO.innerText = user[key];
+            userDiv.append(keyDivNO)
         }
     }
 }
 
+
+
+
+
+
+
+
+
+// ----------------------------------
+// for (let user of usersList) {
+//
+//     let userDiv = document.createElement('div');
+//     userDiv.classList.add('userDiv');
+//     document.body.append(userDiv);
+//
+//     for (let key in user) {
+//
+//         if (typeof user[key] === 'object') {
+//
+//             let keyDiv2 = document.createElement('div');
+//             userDiv.append(keyDiv2);
+//             keyDiv2.classList.add('keyDiv');
+//             keyDiv2.innerText = `${key}`
+//
+//             for (let field in user[key]) {
+//
+//                 if (typeof user[key][field] === 'object') {
+//
+//                     let keyDiv3 = document.createElement('div');
+//                     keyDiv3.classList.add('keyDiv');
+//                     userDiv.append(keyDiv3)
+//                     keyDiv3.innerText = field
+//
+//                     for (let property in user[key][field]) {
+//                         let keyDiv4 = document.createElement('div');
+//                         keyDiv4.classList.add('keyDiv');
+//                         userDiv.append(keyDiv4);
+//                         keyDiv4.innerText = user[key][field][property];
+//                     }
+//
+//
+//                 }else {
+//
+//                 let fieldDiv = document.createElement('div');
+//                 fieldDiv.classList.add('keyDiv')
+//                 fieldDiv.innerText = `${user[key][field]}`;
+//                 userDiv.append(fieldDiv);
+//                 }
+//                         }
+//         } else {
+//
+//             let keyDiv = document.createElement('div');
+//             keyDiv.classList.add('keyDiv')
+//             keyDiv.innerText = `${user[key]}`;
+//             userDiv.append(keyDiv);
+//         }
+//     }
+// }
+// ------------------------------------------------------
 
 
 
