@@ -1,0 +1,63 @@
+.mainDiv{
+    /*border: 2px solid black;*/
+    padding: 50px;
+    background: silver;
+}
+.headDiv {
+    background:black;
+    font-family: Arial;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:goldenrod;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.keyDiv{
+    background:darkolivegreen;
+    font-family: Arial;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:gold;
+    margin-top: 10px;
+}
+
+.keyDiv2{
+    background:darkolivegreen;
+    font-family: Arial;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:gold;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.headDiv2{
+    background:black;
+    font-family: Arial;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color:goldenrod;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-left: 60px;
+}
+
+.keyDiv3 {
+    background: darkolivegreen;
+    font-family: Arial;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: gold;
+    margin-top: 10px;
+    margin-left: 80px;
+}

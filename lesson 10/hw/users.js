@@ -15,9 +15,5 @@ fetch('http://jsonplaceholder.typicode.com/users')
             anchorElement.innerText = `${user.id} -- ${user.name}`;
             li.appendChild(anchorElement)
             anchorElement.href = 'user-details.html?id=' + user.id;
-
-
         }
-
-
     });
