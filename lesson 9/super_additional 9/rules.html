@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="UTF-8">
   <title>Fight Club</title>
 </head>
@@ -52,33 +45,46 @@
 </div>
 
 <script>
-  // написати рекурсивну функцію, яка збирає всі назви класів з файлу rules.html в окремий масив. масив вивести в консоль
 
-  arrFullOfClasses = [];
-  function clasesPickUpper(htmlElement) {
+  // - є сторінка rules.html. Контентом сторінки є заголовки та параграфи. Заголовки (h2) характеризують тему контенту яка вказана в параграфі.
+  //     створити скріпт, котрий зчитує всі заголовки, та робить в блоці з id=content з них список(ul>li), який буде змістом того, що знаходиться на сторінці.
+  //     Скріпт повинен працювати навіть якщо кількість блоків з заголовком та параграфом зміниться.
 
-    let clases = htmlElement.classList;
+  arr = [];
 
-    if (clases.length !== 0) {
-      for (let classs of clases) {
+  function explorer(htmlElement) {
 
-      arrFullOfClasses.push(classs);
-      }
-    }
+    arr.push(htmlElement);
+
     let children = htmlElement.children;
     if (children.length !== 0) {
       for (let child of children) {
-        clasesPickUpper(child);
+        explorer(child);
       }
     }
   }
 
-  clasesPickUpper(document.body);
+explorer(document.body)
 
-  console.log(arrFullOfClasses);
+  console.log(arr);
+
+  let content = document.getElementById('content');
+
+  let listElement = document.createElement('ul');
+  content.appendChild(listElement);
+
+
+  arr.forEach(element => {
+
+    if (element.tagName === 'H2') {
+
+      let item = document.createElement('li');
+      listElement.appendChild(item);
+      item.innerText = element.innerText;
+    }
+  });
+
 
 </script>
-</body>
-</html>
 </body>
 </html>

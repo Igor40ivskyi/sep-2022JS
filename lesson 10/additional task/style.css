@@ -1,0 +1,60 @@
+.comentDiv {
+    font-size: 20px;
+    background: silver;
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    color: red;
+}
+
+.comentBodyDiv{
+    padding-left: 10px;
+    font-weight: revert;
+    display: flex;
+}
+
+/*----------------------------------*/
+
+.menu {
+    width: 300px;
+    height: 200px;
+    background: silver;
+    transition: width 2s;
+
+}
+
+#myDiv {
+    width: 100%;
+    background: goldenrod;
+    padding: 50px 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+
+/*------------------------------------*/
+
+.menuHead{
+    /*height: 20px;*/
+    background: goldenrod;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.menuContent {
+    background: slategrey;
+    height: 0;
+
+}
+.ul {
+    margin: 0;
+    font-size: 25px;
+    padding-right: 30px;
+
+}

@@ -235,61 +235,54 @@
 //
 // Створити під кожен елемент окремий блок. В цьому блоці, під кожну властивість, та властивості внутрішніх об'єктів створити свої окремі блок.
 
-for (let user of usersList) {
-
-    let userDiv = document.createElement('div');
-    document.body.append(userDiv);
-    userDiv.classList.add('userDiv');
-
-    for (let key in user) {
-
-        if (typeof user[key] === 'object') {
-
-            let keyDivO = document.createElement('div');
-            keyDivO.classList.add('keyDiv');
-            keyDivO.innerText = key;
-            console.log(key);
-            userDiv.append(keyDivO);
-
-            for (let field in user[key]) {
-
-                if (typeof user[key][field] === 'object') {
-
-                    let keyDivO2 = document.createElement('div');
-                    keyDivO2.classList.add('keyDiv');
-                    keyDivO2.innerText = field;
-                    userDiv.append(keyDivO2)
-
-                    for (let property in user[key][field]) {
-
-                        let keyDivNO3 = document.createElement('div');
-                        keyDivNO3.classList.add('keyDiv');
-                        keyDivNO3.innerText = user[key][field][property];
-                        userDiv.append(keyDivNO3);
-                    }
-
-                } else {
-                    let keyDivNO2 = document.createElement('div');
-                    keyDivNO2.classList.add('keyDiv');
-                    keyDivNO2.innerText = user[key][field];
-                    userDiv.append(keyDivNO2);
-                }
-            }
-        } else {
-            let keyDivNO = document.createElement('div')
-            keyDivNO.classList.add('keyDiv');
-            keyDivNO.innerText = user[key];
-            userDiv.append(keyDivNO)
-        }
-    }
-}
-
-
-
-
-
-
-
+// for (let user of usersList) {
+//
+//     let userDiv = document.createElement('div');
+//     document.body.append(userDiv);
+//     userDiv.classList.add('userDiv');
+//
+//     for (let key in user) {
+//
+//         if (typeof user[key] === 'object') {
+//
+//             let keyDivO = document.createElement('div');
+//             keyDivO.classList.add('keyDiv');
+//             keyDivO.innerText = key;
+//             console.log(key);
+//             userDiv.append(keyDivO);
+//
+//             for (let field in user[key]) {
+//
+//                 if (typeof user[key][field] === 'object') {
+//
+//                     let keyDivO2 = document.createElement('div');
+//                     keyDivO2.classList.add('keyDiv');
+//                     keyDivO2.innerText = field;
+//                     userDiv.append(keyDivO2)
+//
+//                     for (let property in user[key][field]) {
+//
+//                         let keyDivNO3 = document.createElement('div');
+//                         keyDivNO3.classList.add('keyDiv');
+//                         keyDivNO3.innerText = user[key][field][property];
+//                         userDiv.append(keyDivNO3);
+//                     }
+//
+//                 } else {
+//                     let keyDivNO2 = document.createElement('div');
+//                     keyDivNO2.classList.add('keyDiv');
+//                     keyDivNO2.innerText = user[key][field];
+//                     userDiv.append(keyDivNO2);
+//                 }
+//             }
+//         } else {
+//             let keyDivNO = document.createElement('div')
+//             keyDivNO.classList.add('keyDiv');
+//             keyDivNO.innerText = user[key];
+//             userDiv.append(keyDivNO)
+//         }
+//     }
+// }
 
 
 // ----------------------------------
@@ -343,16 +336,39 @@ for (let user of usersList) {
 //     }
 // }
 // ------------------------------------------------------
-
-
-
-
 //
 //
 // --------
 //     за допомоги рекурсії перебрати структуру сторінки. зробити об'єкт, всі заголовки покласти в (масив) характеристику headings,всі параграфи покласти в характеристику (масив) paragraphs
+
+// let object = {headings: [], paragraphs: []}
 //
+// function hPFinder(htmlElement) {
+//
+//     let children = htmlElement.children;
+//
+//     if (children.length !== 0) {
+//         for (let child of children) {
+//
+//             if (child.tagName === 'H1' || child.tagName === 'H2'|| child.tagName === 'H3') {
+//                 object.headings.push(child);
+//             }
+//             if (child.tagName === 'P') {
+//                 object.paragraphs.push(child);
+//             }
+//
+//             hPFinder(child);
+//         }
+//     }
+//
+// }
+//
+// hPFinder(document.body);
+//
+// console.log(object);
+
 // ------
 //
 //     зробити div contenteditable ввести будь яке ціле слово. та при натисканні табуляції перетворити його на подвійний тег
 // asd ->tab-> <asd></asd>
+

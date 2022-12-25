@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="UTF-8">
   <title>Fight Club</title>
 </head>
@@ -51,34 +44,7 @@
   </div>
 </div>
 
-<script>
-  // написати рекурсивну функцію, яка збирає всі назви класів з файлу rules.html в окремий масив. масив вивести в консоль
+<script src="main.js"></script>
 
-  arrFullOfClasses = [];
-  function clasesPickUpper(htmlElement) {
-
-    let clases = htmlElement.classList;
-
-    if (clases.length !== 0) {
-      for (let classs of clases) {
-
-      arrFullOfClasses.push(classs);
-      }
-    }
-    let children = htmlElement.children;
-    if (children.length !== 0) {
-      for (let child of children) {
-        clasesPickUpper(child);
-      }
-    }
-  }
-
-  clasesPickUpper(document.body);
-
-  console.log(arrFullOfClasses);
-
-</script>
-</body>
-</html>
 </body>
 </html>

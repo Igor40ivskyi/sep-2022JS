@@ -4,28 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the hw 10">
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw different approach/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw different approach/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw different approach/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw different approach/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/user-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw second attempt/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw third attepmt/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw third attepmt/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw third attepmt/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/hw third attepmt/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/recursion/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 8 constructor/additional task recursion/rules.html" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the lesson 8 additional task recursion">
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/additional task/home-page/favorites.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/additional task/home-page/favorites.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/additional task/home-page/favorites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/additional task/home-page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/additional task/home-page/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/additional task/home-page/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/localStorage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/localStorage/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 11 bonus/localStorage/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/additional task/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/forms practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/super_additional 9/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/super_additional 9/rules.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/super_additional 9/super.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 10/hw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 10/hw/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 10/hw/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 10/hw/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 8 constructor/additional task recursion/rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 8 constructor/additional task recursion/rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 9/additional task/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/additional task/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,30 +54,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JavaScript",
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;,
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson 11 bonus\additional task\home-page" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson 10\hw" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\practice\lesson 6 methods\just playing" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson1\additional tasks" />
@@ -218,7 +220,30 @@
       <workItem from="1671351581074" duration="2068000" />
       <workItem from="1671354405765" duration="2986000" />
       <workItem from="1671361839160" duration="1204000" />
-      <workItem from="1671372442770" duration="2075000" />
+      <workItem from="1671372442770" duration="2288000" />
+      <workItem from="1671391446491" duration="11000" />
+      <workItem from="1671391466169" duration="10000" />
+      <workItem from="1671392071824" duration="2447000" />
+      <workItem from="1671434213166" duration="6088000" />
+      <workItem from="1671443937325" duration="75000" />
+      <workItem from="1671450072183" duration="5216000" />
+      <workItem from="1671477472588" duration="322000" />
+      <workItem from="1671510071197" duration="7316000" />
+      <workItem from="1671550914416" duration="1804000" />
+      <workItem from="1671622844346" duration="558000" />
+      <workItem from="1671623409190" duration="2000" />
+      <workItem from="1671699949540" duration="845000" />
+      <workItem from="1671701099634" duration="70000" />
+      <workItem from="1671701179277" duration="4000" />
+      <workItem from="1671874617789" duration="5462000" />
+      <workItem from="1671899662880" duration="10000" />
+      <workItem from="1671900266706" duration="3793000" />
+      <workItem from="1671904386852" duration="365000" />
+      <workItem from="1671906706070" duration="657000" />
+      <workItem from="1671907438965" duration="122000" />
+      <workItem from="1671956153397" duration="826000" />
+      <workItem from="1671956997777" duration="4748000" />
+      <workItem from="1671970939979" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -346,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671210606635</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="have done the hw 10">
+      <created>1671374547595</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671374547595</updated>
+    </task>
+    <task id="LOCAL-00020" summary="have done the lesson 8 additional task recursion">
+      <created>1671374603873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671374603873</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +415,9 @@
     <MESSAGE value="doing the lesson7 additional" />
     <MESSAGE value="Have done the first task of additional 9" />
     <MESSAGE value="have done the hw 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the hw 10" />
+    <MESSAGE value="have done the lesson 8 additional task" />
+    <MESSAGE value="have done the lesson 8 additional task recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="have done the lesson 8 additional task recursion" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
