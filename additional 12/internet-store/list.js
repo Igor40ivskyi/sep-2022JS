@@ -24,8 +24,8 @@ basket.map((item,index) => {
 
 
         localStorage.setItem('items', JSON.stringify(basket));
-
-        itemDiv.style.display = 'none';
+        window.location.reload();
+        // itemDiv.style.display = 'none';
 
     };
 
