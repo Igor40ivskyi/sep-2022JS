@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="have done the additonal super 9">
-      <change afterPath="$PROJECT_DIR$/additional 12/internet-store/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional 12/internet-store/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional 12/internet-store/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional 12/internet-store/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional 12/task1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/additional 12/task1/main.js" afterDir="false" />
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="doing internet store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 9/super_additional 9/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/super_additional 9/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additional 12/internet-store/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional 12/internet-store/list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +228,8 @@
       <workItem from="1671970939979" duration="5237000" />
       <workItem from="1671976474332" duration="3229000" />
       <workItem from="1671982761050" duration="2693000" />
-      <workItem from="1672035248074" duration="1264000" />
+      <workItem from="1672035248074" duration="2309000" />
+      <workItem from="1672039596618" duration="1368000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -383,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671972550612</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="doing internet store">
+      <created>1672036551701</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672036551701</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +418,8 @@
     <MESSAGE value="have done the lesson 8 additional task" />
     <MESSAGE value="have done the lesson 8 additional task recursion" />
     <MESSAGE value="have done the additonal super 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="have done the additonal super 9" />
+    <MESSAGE value="doing internet store" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing internet store" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

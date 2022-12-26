@@ -3,7 +3,7 @@ let basket = JSON.parse(localStorage.getItem('items'));
 let [mainDiv] = document.getElementsByClassName('mainDiv');
 
 
-basket.forEach(item => {
+basket.map((item,index) => {
 
     let itemDiv = document.createElement('div');
     mainDiv.appendChild(itemDiv);
@@ -14,17 +14,23 @@ basket.forEach(item => {
     itemDiv.appendChild(itemButton);
     itemButton.innerHTML = 'TAKE OFF';
 
+    item.id = index;
+
     itemButton.onclick = function () {
 
-        
+        console.log(item.id);
+
+        basket.splice(item.id, item.id + 1);
 
 
+        localStorage.setItem('items', JSON.stringify(basket));
 
+        itemDiv.style.display = 'none';
 
     };
 
-});
 
+});
 
 console.log(basket);
 
