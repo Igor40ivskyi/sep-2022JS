@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="doing internet store">
-      <change afterPath="$PROJECT_DIR$/ KminLessonPracite/ev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ KminLessonPracite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forInTraining/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forInTraining/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/images/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/just-practice/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/just-practice/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainig/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainig/training.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional 12/internet-store/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional 12/internet-store/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/additional 12/internet-store/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional 12/internet-store/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 10/additional task/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 10/additional task/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="doing internet store" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -300,7 +264,7 @@
       <workItem from="1674041300689" duration="7000" />
       <workItem from="1677392947551" duration="1736000" />
       <workItem from="1677397057057" duration="17000" />
-      <workItem from="1677402837647" duration="918000" />
+      <workItem from="1677402837647" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -477,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672046764530</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="doing internet store">
+      <created>1677403984872</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677403984872</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
