@@ -328,3 +328,149 @@
 // console.log(builder.getInfo());
 // builder.setAge(44);
 // console.log(builder.getInfo());
+
+// ================================ destructurisation repeat ================
+//
+// let user = {
+//     name: 'dima',
+//     age: 22,
+//     wife: {
+//         name: 'anna',
+//         age: 25, status: true
+//             }};
+//
+// let {name, age,wife, wife: {name:wName, age:wAge, status}} = user;
+//
+// console.log(wName);
+// console.log(wAge);
+// console.log(status);
+//
+// console.log(wife);
+//
+//
+// let name1 = 'vasya';
+// let age1 = 31;
+// let status1 = true;
+// let car = 'bmw';
+//
+// let user1 = {
+//     name1,
+//     age1,
+//     status1,
+//     car
+// }
+// console.log(user1);
+//
+// let user2 = {
+//     name: 'kokos',
+//     age: 41,
+//     status: true
+// };
+//
+// let user3 = {...user2, name: 'dimas'};
+//
+// console.log(user3);
+//
+// console.log(user3);
+// console.log(user2);
+
+
+// let user5 = {
+//     name: 'ostap',
+//     age: 20,
+//     wife: {
+//         name: 'diana',
+//         age: 20
+//     },
+//     cars:{autopark: [1, 1, 1]}
+//
+// };
+//
+// let user6 = {...user5};
+//
+// user6.name = 'bobob';
+// user6.age = 30;
+// user6.wife.name = 'heyley';
+// user6.cars.autopark[0] = 2;
+//
+// console.log(user5);
+// console.log(user6);
+
+
+
+// let user5 = {
+//     name: 'ostap',
+//     age: 20,
+//     wife: {
+//         name: 'diana',
+//         age: 20
+//     },
+//     cars:{autopark: [1, 1, 1]}
+//
+// };
+//
+// let s = JSON.stringify(user5);
+//
+// const user6 = JSON.parse(s);
+//
+// user6.wife.name = 'lola';
+// console.log(user5);
+// console.log(user6);
+//
+//
+// function copyCentr(obj) {
+//     return JSON.parse(JSON.stringify(obj));
+//
+// }
+//
+// const copy = (obj) => JSON.parse(JSON.stringify(obj));
+
+// let name = 'dimon';
+// let age = 30;
+// let status = true;
+// let wife = {};
+//
+// let nameW = 'anyuta';
+// let ageW = 34;
+// let colorW = 'broun';
+//
+// let user = {
+//     name,
+//     age,
+//     status,
+//     wife: {nameW, ageW, colorW}
+// };
+//
+// console.log(user);
+
+// let boy = {
+//     name: 'petryk',
+//     age: 23,
+//     status: true,
+//     car: {model: 'bmw', year: 2000, beat: 'yes'},
+//     wife: {name: 'diana', age: 20, education: 'high'}
+// };
+//
+// let {name, age, status, car, car: {model, year, beat}, wife, wife: {name: Wname, age: Wage, education}} = boy;
+//
+// console.log(name);
+// console.log(Wname);
+//
+// name = 'don';
+// console.log(boy);
+//
+// console.log(name);
+//
+// let boy2 = {...boy};
+// boy2.name = 'ivan';
+// boy2.car.model = 'mers';
+//
+//
+// let boy3 = JSON.parse(JSON.stringify(boy));
+// boy3.name = 'titi';
+// boy3.car.model = 'gmc';
+//
+//
+// console.log(boy3);
+// console.log(boy);
+// console.log(boy2);

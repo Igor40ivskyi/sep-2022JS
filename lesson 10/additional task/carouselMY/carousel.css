@@ -1,0 +1,25 @@
+.main-div {
+    width: 1500px;
+    height: 500px;
+    background: silver;
+    margin: 30px auto;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.slider {
+    height: 256px;
+    width: 256px;
+    border: 2px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider-line {
+    height: 256px;
+    width: 1024px;
+    background: orangered;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 0.7s;
+}

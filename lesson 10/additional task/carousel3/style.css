@@ -1,0 +1,27 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    transition: 2s ease;
+
+
+}
+
+button {
+    position:absolute;
+    top: 399px;
+}
+
+.button2 {
+    position: absolute;
+    top:460px;
+
+}

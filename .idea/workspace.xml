@@ -5,8 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87c7d31-a144-44f4-8bd9-39b09b75261e" name="Changes" comment="doing internet store">
+      <change afterPath="$PROJECT_DIR$/ KminLessonPracite/ev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ KminLessonPracite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forInTraining/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forInTraining/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/images/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carousel3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/images/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 10/additional task/carouselMY/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/just-practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/just-practice/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainig/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainig/training.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/additional 12/internet-store/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/additional 12/internet-store/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/additional 12/internet-store/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/additional 12/internet-store/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 10/additional task/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 10/additional task/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 7 spred es6 closures/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 7 spred es6 closures/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +74,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/sep-2022JS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,11 +94,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson 10\additional task\carousel2\images" />
+      <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson 10\additional task\carousel" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\additional 12\task1" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson 11 bonus\additional task\home-page" />
       <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson 10\hw" />
-      <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\practice\lesson 6 methods\just playing" />
-      <recent name="C:\Users\Admin\IdeaProjects\sep-2022JS\lesson1\additional tasks" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -231,6 +265,42 @@
       <workItem from="1672035248074" duration="2309000" />
       <workItem from="1672039596618" duration="2719000" />
       <workItem from="1672042352558" duration="157000" />
+      <workItem from="1672046684250" duration="647000" />
+      <workItem from="1672049338318" duration="1000" />
+      <workItem from="1672082830252" duration="628000" />
+      <workItem from="1672131666893" duration="3026000" />
+      <workItem from="1672158195410" duration="622000" />
+      <workItem from="1672230044754" duration="11000" />
+      <workItem from="1672413322375" duration="5036000" />
+      <workItem from="1672421897630" duration="2793000" />
+      <workItem from="1672604736695" duration="8000" />
+      <workItem from="1672649145253" duration="3832000" />
+      <workItem from="1672653042218" duration="5000" />
+      <workItem from="1672653098848" duration="412000" />
+      <workItem from="1672661754404" duration="2089000" />
+      <workItem from="1672669211829" duration="1051000" />
+      <workItem from="1672670285450" duration="680000" />
+      <workItem from="1672670982222" duration="324000" />
+      <workItem from="1672771505194" duration="2000" />
+      <workItem from="1672815553057" duration="714000" />
+      <workItem from="1673270445003" duration="198000" />
+      <workItem from="1673293275257" duration="4000" />
+      <workItem from="1673368936145" duration="3667000" />
+      <workItem from="1673452891398" duration="629000" />
+      <workItem from="1673457530294" duration="2326000" />
+      <workItem from="1673514025465" duration="2103000" />
+      <workItem from="1673690659728" duration="2458000" />
+      <workItem from="1673695788503" duration="3595000" />
+      <workItem from="1673715866651" duration="2593000" />
+      <workItem from="1673720079025" duration="1168000" />
+      <workItem from="1673771506803" duration="19000" />
+      <workItem from="1673779156255" duration="2812000" />
+      <workItem from="1673790335281" duration="1515000" />
+      <workItem from="1673969770105" duration="299000" />
+      <workItem from="1674041300689" duration="7000" />
+      <workItem from="1677392947551" duration="1736000" />
+      <workItem from="1677397057057" duration="17000" />
+      <workItem from="1677402837647" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="have done the lesson2 hw">
       <created>1667466197143</created>
@@ -400,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672041601742</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="doing internet store">
+      <created>1672046764530</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672046764530</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
